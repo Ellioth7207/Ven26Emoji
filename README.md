@@ -14,6 +14,24 @@
 
 **Ven26 Emoji** is a root module that brings the iOS 26 emoji style to Android devices. It replaces the system emoji font at the OS level and patches emoji rendering inside select messaging apps, so iOS-style emoji appear consistently across the system keyboard, notifications, and supported apps — without needing per-app workarounds.
 
+## Notes & Requirements
+
+- **Keyboard:** For the best emoji compatibility, use the latest version of Gboard.
+
+- **Permanent iOS Emojis:** To keep the iOS emoji font applied permanently after reboot, install the Mountify module after installing Ven26Emoji.
+
+  Mountify: <a href="https://github.com/backslashxx/mountify/releases"><img src="https://img.shields.io/badge/Download-TapHere-0A84FF?style=flat-square&logo=android&logoColor=white" alt="Download Mountify" style="border:2px solid #0A84FF;border-radius:8px;padding:2px;"></a>
+
+- **WhatsApp:** To make the iOS emojis available in WhatsApp, use WAEnhancer with LSPosed or Vector. The WAEnhancer Config is also required.
+
+  LSPosed / Vector: <a href="https://github.com/JingMatrix/Vector/releases"><img src="https://img.shields.io/badge/Download-TapHere-0A84FF?style=flat-square&logo=android&logoColor=white" alt="Download LSPosed / Vector" style="border:2px solid #0A84FF;border-radius:8px;padding:2px;"></a>
+  
+  WAEnhancer: <a href="https://github.com/Dev4Mod/WaEnhancer/releases"><img src="https://img.shields.io/badge/Download-TapHere-0A84FF?style=flat-square&logo=android&logoColor=white" alt="Download WAEnhancer" style="border:2px solid #0A84FF;border-radius:8px;padding:2px;"></a>
+  
+  Config: <a href="https://sfl.gl/kl7w7M"><img src="https://img.shields.io/badge/Download-TapHere-0A84FF?style=flat-square&logo=android&logoColor=white" alt="Download WAEnhancer Config" style="border:2px solid #0A84FF;border-radius:8px;padding:2px;"></a>
+
+  WaEnhancer Tutorial: <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSURdCpofz06n-BZ0ZhwPSxEo-0M3wLs8_b6w&s"><img src="https://img.shields.io/badge/Watch-TapHere-0A84FF?style=flat-square&logo=android&logoColor=white" alt="WaEnhancer Tutorial" style="border:2px solid #0A84FF;border-radius:8px;padding:2px;"></a>
+
 ## Overview
 
 | | |
