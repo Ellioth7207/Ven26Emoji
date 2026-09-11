@@ -102,10 +102,6 @@ This attribution must not be removed, hidden, or replaced.
 
 Official links associated with Ven26 Emoji+ (download, source, and release links) must not be changed, replaced, shortened, redirected, or hidden without prior written permission from Telegram: **@ellioth7207**. This applies to links in redistribution posts and repackaged copies of the module alike.
 
-## Disclaimer
-
-Ven26 Emoji+ modifies system-level emoji fonts and patches font files within select app data. The author assumes no responsibility for bootloops, system instability, data loss, device malfunction, incompatibility with specific devices, emoji rendering issues, conflicts with other modules, or any other damage resulting from use of this module. Install and use at your own risk.
-
 ## Credits
 
 | Role | Handle |
