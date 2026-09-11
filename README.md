@@ -10,7 +10,7 @@
 
 </div>
 
-# Ven26 Emoji (iOS Emoji Module)
+# Ven26 Emoji
 
 **Ven26 Emoji** is a root module that brings the iOS 26 emoji style to Android devices. It replaces the system emoji font at the OS level and patches emoji rendering inside select messaging apps, so iOS-style emoji appear consistently across the system keyboard, notifications, and supported apps — without needing per-app workarounds.
 
@@ -20,7 +20,7 @@
 |---|---|
 | **Module ID** | `ven_ios_emoji` |
 | **Name** | Ven 26 Emoji+ |
-| **Version** | 18.0 (versionCode 1230) |
+| **Version** | 18.0 |
 | **Author** | [@vennec](https://t.me/Vennec) |
 | **Minimum Magisk** | 20200 |
 
