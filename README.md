@@ -1,7 +1,13 @@
-[![Ven26 iOS Emoji+](module/iOS.jpg)](module/iOS.jpg)
+<div align="center">
+  <img src="https://i.ibb.co.com/B5w8YpQQ/quality-restoration-20260911171625806.jpg" alt="VenForce" width="100%">
+</div>
 
-[![Download Ven26 Emoji+](https://img.shields.io/badge/Download-Ven26Emoji%2B-0A84FF?style=flat-square&logo=android&logoColor=white)](../../releases)
-[![Support Channel](https://img.shields.io/badge/Telegram-%40vennec-26A5E4?style=flat-square&logo=telegram&logoColor=white)](https://t.me/vennec)
+<div align="center">
+
+<a href="https://sfl.gl/zrLiDYoa"><img src="https://img.shields.io/badge/Download-TapHere-0A84FF?style=flat-square&logo=android&logoColor=white" alt="Download Ven26Emoji" style="border:2px solid #0A84FF;border-radius:8px;padding:2px;"></a>
+<a href="https://t.me/Vennec"><img src="https://img.shields.io/badge/Telegram-@VENNEC-26A5E4?style=flat-square&logo=telegram&logoColor=white" alt="Support Channel" style="border:2px solid #0A84FF;border-radius:8px;padding:2px;"></a>
+
+</div>
 
 ---
 
@@ -30,39 +36,34 @@ Ven26 Emoji+ is a lightweight, root-based system module for Android that replace
 | --------------- | ----------------------------------------- |
 | Name            | Ven26 iOS Emoji+                          |
 | Module ID       | `ven_ios_emoji`                           |
-| Version         | E.O.L_EXTENDED_FBfix                      |
-| Version Code    | 1230                                      |
+| Version         | E.O.L_HOTFIX                      |
+| Version Code    | 1229                                      |
 | Author          | [@vennec](https://t.me/vennec)            |
-| Status          | Stable (Facebook/Facebook Lite fix build) |
+| Status          | Stable - A10-17 Support |
 | Minimum Magisk  | 20200                                     |
 | Emoji base      | Noto Color Emoji + iOS-style glyph set    |
 
 ## Compatibility
 
-| Manager  | Notes                                  |
-| -------- | --------------------------------------- |
+|      Manager     |
+| -----------------|
 | All Root Manager | 
 
 Root access is required. This module relies on runtime bind-mounts into other apps' private data directories, which is not achievable without root.
 
-## Repository Structure
+## Structure
 
 ```
 ven26-emoji-eol/
-├── module/                  # Module source — this is what gets zipped for flashing
-│   ├── META-INF/            # Magisk installer, do not edit
-│   ├── system/fonts/        # NotoColorEmoji.ttf, FacebookEmoji.ttf
-│   ├── bind_helpers.sh      # Shared helpers: SELinux-safe bind_font()
-│   ├── config.sh            # Magisk install-time configuration
-│   ├── fallback.xml         # Emoji fallback entry for system fonts.xml
-│   ├── module.prop          # Module metadata
-│   ├── post-fs-data.sh      # Runs at early boot, before Zygote
-│   └── service.sh           # Runs at late_start, after boot completes
-├── docs/
-│   └── TROUBLESHOOTING.md
-├── .github/workflows/       # CI: builds & publishes the flashable zip on tag push
-├── CHANGELOG.md
-└── LICENSE
+├─ ven_ios_emoji/                  
+   ├── META-INF/            
+   ├── system/fonts/        
+   ├── bind_helpers.sh      
+   ├── config.sh            
+   ├── fallback.xml         
+   ├── module.prop          
+   ├── post-fs-data.sh      
+   └── service.sh           
 ```
 
 ## Installation
@@ -77,19 +78,14 @@ If emoji still don't change inside a specific app, check `/sdcard/Ven26_Emoji_de
 
 ## Changelog
 
-### 1230 — E.O.L_EXTENDED_FBfix
+### E.O.L_HOTFIX
 
 - Fixed: Facebook and Facebook Lite not receiving the emoji patch — bind-mounted files weren't retaining a usable SELinux context inside those apps' sandboxes
 - Fixed: missing `fallback.xml` referenced by `post-fs-data.sh`
 - Facebook Lite / Messenger Lite now patched at early boot (`post-fs-data.sh`), not only at late_start
+- Fix Black Emoji
 - Added on-device debug logging
 - Added CI build/release workflow and full documentation
-
-### 1229 — E.O.L_EXTENDED
-
-- Original release
-
-See [`CHANGELOG.md`](CHANGELOG.md) for full details.
 
 ## Attribution and Redistribution Policy
 
